@@ -16,9 +16,7 @@
 # Input Images
 Input images are reference from https://github.com/mahmoudnafifi/Exposure_Correction/tree/master/example_images
 
-1.Low Exposure Images
-
-<img src="https://github.com/venson-chiang/Halide_Exposure_Correction/blob/main/example_images/Rodrigo%20Valla%20-%20CC%20BY-NC%202.0.jpg" width="30%" height="30%"> <img src="https://github.com/venson-chiang/Halide_Exposure_Correction/blob/main/example_images/a1359-NKIM_MG_6126_N1.5.JPG" width="45%" height="45%"> src="https://github.com/venson-chiang/Halide_Exposure_Correction/blob/main/example_images/a0716-MB_20030906_030_P1.5.JPG" width="45%" height="45%"> 
+<img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_01.png" width="45%" height="45%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_02.png" width="45%" height="45%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_03.png" width="45%" height="45%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_04.png" width="45%" height="45%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_05.png" width="45%" height="45%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_06.png" width="45%" height="45%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_07.png" width="45%" height="45%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_08.png" width="45%" height="45%"> 
 
 # Result
 1.Exposure Correction of low exposure images
