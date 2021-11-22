@@ -18,8 +18,16 @@ Input images are reference from https://github.com/mahmoudnafifi/Exposure_Correc
 
 <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_01.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_02.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_03.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_04.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_05.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_06.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_07.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_08.png" width="20%" height="20%"> 
 
+Combine input images to GIF animation
+
+<img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noise_sequence.gif" width="100%" height="100%">
+
 # Result
 <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/output_images/noisy_sequence_01_3dnr.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/output_images/noisy_sequence_02_3dnr.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/output_images/noisy_sequence_03_3dnr.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/output_images/noisy_sequence_04_3dnr.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/output_images/noisy_sequence_05_3dnr.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/output_images/noisy_sequence_06_3dnr.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/output_images/noisy_sequence_07_3dnr.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/output_images/noisy_sequence_08_3dnr.png" width="20%" height="20%">
+
+Combine Output images to GIF animation
+
+<img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/output_images/noise_sequence_3dnr.gif" width="100%" height="100%">
 
 # Usage
 1. Change HALIDE_DISTRIB_PATH to yours in Makefile.inc
