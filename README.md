@@ -5,16 +5,16 @@
 1.Halide 12.0.0 or above: https://github.com/halide/Halide
 
 # Methods
-1.Resize input image to get low resolution image for deep learning.
+1.Seperate images to serveral 4x4 blocks.
 
-2.Apply laplacian pyramid and deep learning model to correct exposure of image.
+2.Calculate the difference between base block and others. If difference is larger, weight is smaller.
 
-3.Apply Bilateral Guided Upsampling to get high resolution exposure corrected image. 
+3.Calculate the difference between block center pixel and surroundings. If difference is larger, weight is smaller.
 
-4.Fuse input image and exposure corrected image to get better performance of exposure correction.
+4.Combine all images multiplied by their weights, to get result image.
 
 # Input Images
-Input images are reference from https://github.com/mahmoudnafifi/Exposure_Correction/tree/master/example_images
+Input images are reference from https://github.com/zongwave/IPASS/tree/master/Sample
 
 <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_01.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_02.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_03.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_04.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_05.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_06.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_07.png" width="20%" height="20%"> <img src="https://github.com/venson-chiang/Halide_3DNR/blob/main/input_images/noisy_sequence_08.png" width="20%" height="20%"> 
 
@@ -40,5 +40,5 @@ make test
 ```
 
 # Reference
-Exposure correction model is reference to https://github.com/mahmoudnafifi/Exposure_Correction
+3DNR model is reference to https://github.com/zongwave/IPASS
 
